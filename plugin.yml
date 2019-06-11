@@ -1,0 +1,9 @@
+name: TestPlugin
+main: io.github.ctirpak.testplugin.TestPlugin
+version: 1.0
+author: me
+description: An Example plugin
+commands:
+   explode:
+      description: This is the explode command.
+      usage: /explode
