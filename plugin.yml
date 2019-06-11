@@ -1,5 +1,5 @@
 name: TestPlugin
-main: io.github.ctirpak.testplugin.TestPlugin
+main: com.github.ctirpak.mcplugin.TestPlugin
 version: 1.0
 author: me
 description: An Example plugin

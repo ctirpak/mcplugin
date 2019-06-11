@@ -26,10 +26,10 @@ public class TestPluginCommandExecutor implements CommandExecutor {
 				player.sendMessage("run...");
 				// Multiply the direction from the location by 2 and store it as vector
 				Vector v = location.getDirection().multiply(2);
-				for(int x = 0; x < 17; x++) {
+				for(int x = 0; x < 3; x++) {
 					
 					TNTPrimed tnt = player.getWorld().spawn(player.getLocation(),TNTPrimed.class);
-					v = location.getDirection().multiply(2);
+					v = location.getDirection().multiply(2 + x);
 					// Apply the vector to the primed tnt
 					tnt.setVelocity(v);
 				}
